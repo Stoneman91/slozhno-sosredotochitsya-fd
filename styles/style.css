@@ -2,5 +2,60 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  max-inline-size: 768px;
+  background: var(--bg-image);
+  background-color: var(--bg-dark-color);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  block-size: 100vh;
+  padding-inline: 10px;
+  min-block-size: 668px;
+}
+
+.header_title { 
+  grid-row: 2/2;
+  grid-column: 1/1;
+  margin-block-start: 2px;
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-weight: 700;
+  color: var(--title-color);
+  line-height: 83%;
+}
+
+.header__theme-menu{
+  grid-column: 1/1;
+  grid-row: 1/1;
+  margin-block-start: 25px;
+  justify-self: self-end;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: transparent;
+  text-transform: lowercase;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.gallery-image {
+  grid-column: 1/auto;
+  inline-size: 100%;
+  block-size: 100%;
+  object-position: center;
+  object-fit: cover;
 }
