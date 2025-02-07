@@ -3,7 +3,11 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-image: url(../images/cover-image-dark.png) center no-repeat;
+  --bg-image: url(../images/cover-image-dark.png);
+  --page-bg: #000;
   --accent-color:#ff0070;
   --title-color:#db00ff;
+  --h1-color:rgba(0, 0, 40,1);
+  --section-title-color: rgb(255 0 112);
+  --article-text-color:  rgb(241 178 206);
 }
