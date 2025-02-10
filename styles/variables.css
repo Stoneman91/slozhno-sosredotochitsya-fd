@@ -4,13 +4,13 @@
 */
 :root {
   --bg-image: url(../images/cover-image-dark.png);
-  --page-bg: rgb(0 0 40);
+  --page-bg:#000028;
   --accent-color:#ff0070;
   --title-color:#db00ff;
-  --h1-color:rgba(0, 0, 40,1);
-  --h1-shadow: rgb(255 0 112);
+  --h1-color:#000028;
+  --h1-shadow: #ff0070;
   --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --section-title-color: rgb(255 0 112);
-  --article-text-color:  rgb(241 178 206);
-  --link-shadow: rgb(255 0 112);
+  --section-title-color:#ff0070;
+  --article-text-color:#f1b2ce;
+  --link-shadow:#ff0070;
 }
