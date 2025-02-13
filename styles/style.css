@@ -137,8 +137,7 @@
 }
 
 .article {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 20px;
 }
 .section_title {
@@ -248,7 +247,7 @@
     flex-direction: row;
   }
 
-  .header__text {
+  .header_text {
     max-inline-size: 30.6875rem;
   }
 
