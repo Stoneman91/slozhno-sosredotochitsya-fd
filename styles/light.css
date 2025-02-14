@@ -16,7 +16,10 @@
   --h2-color:#353430;
   --h1-shadow: #ff8DCB;
   --section-title-color:#353430;
+  --article-title-color:#353430;
   --article-text-color:#353430;
+  --theme-menu-button-hover: #353430;
+  --menu-button-hover:#353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,6 +32,8 @@
     --h1-shadow: #ff8DCB;
     --section-title-color:#353430;
     --article-text-color:#353430;
+    --theme-menu-button-hover: #353430;
+    --menu-button-hover:#353430;
     }
 
   .theme-auto .header_rec {
