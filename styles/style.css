@@ -211,7 +211,7 @@ line-height: 23.4px;
   font-size: var(--font-size);
   font-weight: var(--font-weight-regular);
   font-family: var(--font-family);
-  line-height: 23.4px;
+  line-height: 24px;
 }
 
 .article_link {
@@ -249,7 +249,6 @@ line-height: 23.4px;
 }
 
 .footer_title {
-  justify-self: center;
   align-self: center;
   font-size: var(--header-title-size);
   color: var(--h1-color);
