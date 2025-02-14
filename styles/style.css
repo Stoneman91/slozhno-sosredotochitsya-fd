@@ -140,6 +140,7 @@
   font-family: var(--font-family);
   line-height: 23.4px;
   align-self: center;
+  justify-items: start;
   color: var(--h2-color);
 }
 
@@ -211,7 +212,7 @@ line-height: 23.4px;
   font-size: var(--font-size);
   font-weight: var(--font-weight-regular);
   font-family: var(--font-family);
-  line-height: 23.8px;
+  line-height: 23.4px;
 }
 
 .article_link {
@@ -283,7 +284,7 @@ line-height: 23.4px;
   
   .header_title {
     font-size: var(--header-title-desktop);
-    margin-inline-start: -10px;
+    margin-block-end: 20px;
   }
 
   .header_text {
