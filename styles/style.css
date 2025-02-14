@@ -169,8 +169,13 @@
 .section_what {
 display: grid;
 grid-template-columns: 1fr;
+gap: 10px;
 }
 
+.section_line {
+  display: grid;
+  gap: 20px;
+}
 .section_group {
   display: grid;
   grid-template-columns: 1fr;
