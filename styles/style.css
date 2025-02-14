@@ -212,7 +212,7 @@ line-height: 23.4px;
   font-size: var(--font-size);
   font-weight: var(--font-weight-regular);
   font-family: var(--font-family);
-  line-height: 23.5px;
+  line-height: 23.7px;
 }
 
 .article_link {
@@ -366,7 +366,7 @@ line-height: 23.4px;
   }
   
   .header_text {
-    max-width: 364px;
+    max-width: 491px;
   }
 
   .section {
