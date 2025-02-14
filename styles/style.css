@@ -364,6 +364,10 @@ line-height: 23.4px;
     flex-direction: row;
   }
   
+  .header_text {
+    max-width: 364px;
+  }
+  
   .section {
     gap: 12px;
   }
