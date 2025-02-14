@@ -211,6 +211,7 @@ line-height: 23.4px;
   font-size: var(--font-size);
   font-weight: var(--font-weight-regular);
   font-family: var(--font-family);
+  line-height: 23.4px;
 }
 
 .article_link {
@@ -244,6 +245,7 @@ line-height: 23.4px;
   grid-template-columns: 1fr;
   block-size: 100vh;
   min-block-size: 668px;
+  
 }
 
 .footer_title {
@@ -252,6 +254,9 @@ line-height: 23.4px;
   font-size: var(--header-title-size);
   color: var(--h1-color);
   text-shadow: 2px 2px 0 var(--accent-color);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  line-height: 95.7px;
 }
 
 @media (width >= 768px) {
