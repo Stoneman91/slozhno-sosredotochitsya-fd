@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   display: grid;
-  gap: 40px;
+  gap: 50px;
   grid-template-columns: 1fr;
   background-color: var(--page-bg);
   background-image: var(--bg-image);
@@ -136,7 +136,7 @@
   font-size: var(--font-size);
   font-family: var(--font-family);
   line-height: 23.4px;
-  color: var(--section-title-color);
+  color: var(--header-text-color);
 }
 
 .title-decor {
@@ -153,7 +153,6 @@
   display: grid;
   gap: 20px;
 }
-
 
 .section_title {
   color: var(--section-title-color);
@@ -299,7 +298,7 @@
 
   .header_title {
     font-size: var(--header-title-desktop);
-    margin-inline-start: -10px;
+    margin-inline-start: -15px;
   }
 
   .header_text {
@@ -313,7 +312,6 @@
   .section_line {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 20px;
   }
 
@@ -322,7 +320,6 @@
   }
 
   .section_group_what {
-    gap: 20px;
     grid-column: 2 / 3;
   }
 
@@ -377,10 +374,6 @@
     align-self: start;
     justify-self: center;
     padding-block-start: 20px;
-  }
-
-  .header_title {
-    margin-inline-start: -15px;
   }
 
   .header__theme-menu-list {
