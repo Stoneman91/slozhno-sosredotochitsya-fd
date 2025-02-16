@@ -282,7 +282,7 @@
 
   .header_title {
     font-size: var(--header-title-desktop);
-    margin-inline-start:-10px;
+    margin-inline-start: -10px;
   }
 
   .header_text {
@@ -354,6 +354,14 @@
 
 @media (width >=1024px) {
 
+  .decorated-zone::before {
+    top: 20px;
+  }
+
+  .decorated-zone::after {
+    bottom: 20px;
+  }
+
   .header__theme-menu {
     align-self: start;
     justify-self: center;
@@ -370,10 +378,6 @@
 
   .header_text {
     max-width: 491px;
-  }
-
-  .section {
-    gap: 12px;
   }
 
   .section_title {
