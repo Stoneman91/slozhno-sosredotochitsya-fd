@@ -55,7 +55,7 @@
   display: block;
   top: 10px;
   right: 8px;
-  
+
   color: var(--accent-color);
 }
 
@@ -176,8 +176,7 @@
 }
 
 .section_group {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 20px;
 }
 
@@ -315,6 +314,10 @@
 
   .section_title {
     max-inline-size: 236px;
+  }
+
+  .section_group {
+    grid-column: 2 / 3;
   }
 
   .section_group_what {
