@@ -108,10 +108,6 @@
   cursor: pointer;
 }
 
-.header__theme-menu-button:focus {
-  outline: none;
-}
-
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid currentColor;
   outline: none;
@@ -372,10 +368,12 @@
 @media (width >=1024px) {
 
   .decorated-zone::before {
+    right: 20px;
     top: 20px;
   }
 
   .decorated-zone::after {
+    left: 20px;
     bottom: 20px;
   }
 
