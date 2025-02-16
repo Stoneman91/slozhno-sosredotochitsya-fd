@@ -166,7 +166,7 @@
 .section_group_what {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 20px;
 }
 
 .section_line {
