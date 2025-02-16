@@ -79,8 +79,8 @@
 }
 
 .header__theme-menu {
-  justify-self: end;
   align-self: center;
+  justify-self: end;
 }
 
 .header__theme-menu-list {
@@ -123,8 +123,6 @@
 }
 
 .header_title {
-  display: block;
-  align-self: center;
   color: var(--header-title-color);
   font-weight: var(--font-weight-bold);
   font-size: var(--header-title-size);
@@ -284,7 +282,6 @@
 
   .header_title {
     font-size: var(--header-title-desktop);
-    margin-inline-start: -10px;
   }
 
   .header_text {
@@ -358,6 +355,10 @@
     align-self: start;
     justify-self: center;
     padding-block-start: 20px;
+  }
+
+  .header_title {
+    margin-inline-start: -15px;
   }
 
   .header__theme-menu-list {
