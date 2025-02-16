@@ -163,7 +163,7 @@
   line-height: 23.4px;
 }
 
-.section_what {
+.section_group_what {
 display: grid;
 grid-template-columns: 1fr;
 gap: 10px;
@@ -310,7 +310,7 @@ line-height: 23.4px;
     max-inline-size: 236px;
   }
 
-  .section_group {
+  .section_group_what {
     grid-column: 2 / 3;
   }
 
@@ -381,7 +381,7 @@ line-height: 23.4px;
     max-inline-size: 315px;
   }
   
-  .section_what {
+  .section_group_what {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
