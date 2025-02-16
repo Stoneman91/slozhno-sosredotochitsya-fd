@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   display: grid;
-  gap: 50px;
+  gap: 40px;
   grid-template-columns: 1fr;
   background-color: var(--page-bg);
   background-image: var(--bg-image);
