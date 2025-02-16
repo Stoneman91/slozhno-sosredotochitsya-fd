@@ -132,7 +132,8 @@
 }
 
 .header_text {
-  justify-self: flex-end;
+  justify-self: end;
+  align-self: center;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size);
   font-family: var(--font-family);
@@ -298,6 +299,7 @@
   }
 
   .header_text {
+    padding-right: 10px;
     max-width: 364px;
   }
 
@@ -381,6 +383,7 @@
   }
 
   .header_text {
+    padding-right: 0px;
     max-width: 491px;
   }
 
