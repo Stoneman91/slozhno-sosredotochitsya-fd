@@ -17,8 +17,6 @@
   --article-title-color: #353430;
   --article-text-color: #353430;
   --theme-menu-button-hover: #353430;
-  --menu-button-hover: #353430;
-
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,7 +29,6 @@
     --article-title-color: #353430;
     --article-text-color: #353430;
     --theme-menu-button-hover: #353430;
-    --menu-button-hover: #353430;
   }
 
   .theme-auto .header_rec {

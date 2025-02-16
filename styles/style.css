@@ -95,7 +95,7 @@
   line-height: 18px;
   text-transform: lowercase;
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--theme-menu-button-hover);
   font-size: var(--font-size);
   font-family: var(--font-family);
   padding: 3px 13px;
@@ -118,7 +118,7 @@
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--theme-menu-button-hover);
   pointer-events: none;
 }
 
