@@ -83,6 +83,8 @@
 .header__theme-menu {
   align-self: center;
   justify-self: end;
+  padding-block-start: 13px;
+  padding-inline-start: 1px;
 }
 
 .header__theme-menu-list {
@@ -290,11 +292,6 @@
   .header_rec {
     top: 20px;
     right: 20px;
-  }
-
-  .header__theme-menu {
-    padding-block-start: 13px;
-    padding-inline-start: 1px;
   }
 
   .header_title {
