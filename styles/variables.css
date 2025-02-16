@@ -4,17 +4,17 @@
 */
 :root {
   --bg-image: url(../images/cover-image-dark.png);
-  --page-bg:#000028;
-  --accent-color:#ff0070;
-  --header-title-color:#db00ff;
-  --section-title-color:#000028;
+  --page-bg: #000028;
+  --accent-color: #ff0070;
+  --header-title-color: #db00ff;
+  --section-title-color: #000028;
   --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --header-title-desktop:clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --theme-menu-button-hover:#ff0070;
-  --article-title-color:#000028;
-  --article-text-color:#f1b2ce;
-  --link-shadow:#ff0070;
-  --menu-button-hover:#ff0070;
+  --header-title-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --theme-menu-button-hover: #ff0070;
+  --article-title-color: #000028;
+  --article-text-color: #f1b2ce;
+  --link-shadow: #ff0070;
+  --menu-button-hover: #ff0070;
   --font-size: 18px;
   --font-family: 'IBM Plex Mono';
   --font-weight-bold: 700;
