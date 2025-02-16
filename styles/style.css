@@ -200,6 +200,7 @@
   font-weight: var(--font-weight-regular);
   font-family: var(--font-family);
   font-size: var(--font-size);
+  line-height: 23.4px;
 
 }
 
@@ -208,7 +209,7 @@
   font-size: var(--font-size);
   font-weight: var(--font-weight-regular);
   font-family: var(--font-family);
-  line-height: 23.7px;
+  line-height: 23.4px;
 }
 
 .article_link {
