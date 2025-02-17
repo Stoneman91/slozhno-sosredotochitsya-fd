@@ -19,7 +19,7 @@
   --link-color: #353430;
   --theme-menu-button-hover: #353430;
   --border-color: #353430;
-  --border-color-hover: #353430/ 0.4;
+  --border-color-hover: #32312D66;
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,7 +33,7 @@
     --article-text-color: #353430;
     --theme-menu-button-hover: #353430;
     --border-color: #353430;
-    --border-color-hover: #353430/ 0.4;
+    --border-color-hover: #32312D66;
   }
 
   .theme-auto .header_rec {
