@@ -137,7 +137,6 @@
   font-family: var(--font-family);
   line-height: 23.4px;
   color: var(--header-text-color);
-  margin-block-end: 66px;
 }
 
 .title-decor {
@@ -263,6 +262,14 @@
   font-weight: var(--font-weight-bold);
   font-family: var(--font-family);
   line-height: 95.7px;
+}
+
+.pixel-perfect-image {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
 }
 
 @media (width >=768px) {
