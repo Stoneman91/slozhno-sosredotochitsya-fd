@@ -31,8 +31,8 @@
   position: absolute;
   height: 25px;
   width: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
   right: 10px;
   top: 10px;
 }
@@ -42,19 +42,17 @@
   position: absolute;
   height: 25px;
   width: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
   left: 10px;
   bottom: 10px;
 }
-
 
 .header_rec {
   position: absolute;
   display: block;
   top: 10px;
   right: 8px;
-
   color: var(--accent-color);
 }
 
@@ -139,6 +137,7 @@
   font-family: var(--font-family);
   line-height: 23.4px;
   color: var(--header-text-color);
+  margin-block-end: 66px;
 }
 
 .title-decor {
@@ -202,7 +201,6 @@
   font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: 23.4px;
-
 }
 
 .article_text {
@@ -255,7 +253,6 @@
   grid-template-columns: 1fr;
   block-size: 100vh;
   min-block-size: 668px;
-
 }
 
 .footer_title {
@@ -269,7 +266,6 @@
 }
 
 @media (width >=768px) {
-
   .page {
     gap: 60px;
   }
@@ -371,7 +367,6 @@
 }
 
 @media (width >=1024px) {
-
   .header__theme-menu {
     align-self: start;
     justify-self: center;
@@ -398,5 +393,4 @@
   .footer {
     min-height: 768px;
   }
-
 }
