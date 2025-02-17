@@ -59,7 +59,7 @@
   content: "REC";
   position: absolute;
   right: 28px;
-  font-family: var(--font-family), sans-serif;
+  font-family: var(--font-family), monospace;
   font-size: var(--font-size);
   color: var(--accent-color);
   line-height: 25px;
@@ -106,7 +106,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid currentColor;
+  outline: 1px solid var(--border-color-hover)
   cursor: pointer;
 }
 
@@ -211,8 +211,8 @@
 }
 
 .article_link {
-  text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
   cursor: pointer;
 }
 
