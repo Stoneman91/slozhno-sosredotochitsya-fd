@@ -111,13 +111,13 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid currentColor;
+  border-bottom-color: currentColor;
   outline: none;
 }
 
+
 .header__theme-menu-button_active {
   outline: 1px solid var(--theme-menu-button-hover);
-  pointer-events: none;
 }
 
 .header_title {
@@ -217,13 +217,11 @@
 }
 
 .article_link:hover {
-  text-shadow: 2px 2px 0 var(--accent-color);
   border-bottom: 1px solid var(--link-color);
-  cursor: pointer;
 }
 
 .article_link:focus {
-  outline: none;
+  outline: 1px solid var(--link-color);
 }
 
 .gallery {
