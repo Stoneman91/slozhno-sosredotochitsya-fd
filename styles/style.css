@@ -2,9 +2,9 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 40px;
-  grid-template-columns: 1fr;
   background-color: var(--page-bg);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
@@ -262,14 +262,6 @@
   font-weight: var(--font-weight-bold);
   font-family: var(--font-family);
   line-height: 95.7px;
-}
-
-.pixel-perfect-image {
-  position: relative;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.5;
 }
 
 @media (width >=768px) {
