@@ -18,7 +18,7 @@
   --article-title-color: #353430;
   --article-text-color: #353430;
   --link-color: #353430;
-  --theme-menu-button-hover: #353430;
+  --theme-menu-button: #353430;
   --border-color: #353430;
   --border-color-hover: #32312d66;
 }
@@ -33,7 +33,7 @@
     --article-title-color: #353430;
     --article-text-color: #353430;
     --link-color: #353430;
-    --theme-menu-button-hover: #353430;
+    --theme-menu-button: #353430;
     --border-color: #353430;
     --border-color-hover: #32312d66;
   }
