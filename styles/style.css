@@ -219,7 +219,7 @@
 }
 
 .article_link:hover {
-  border-bottom: 1px solid var(--link-color);
+  border-bottom: 1px solid var(--article-link-color);
 }
 
 .article_link:focus {
@@ -227,7 +227,7 @@
 }
 
 .article_link:focus-visible {
-  outline: 1px solid var(--link-color-hover);
+  outline: 1px solid var( --article-link-color);
 }
 
 .gallery {
