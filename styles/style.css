@@ -17,6 +17,7 @@
   padding-inline: 10px;
   position: relative;
   display: grid;
+  align-items: center;
   grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
   min-block-size: 668px;
@@ -269,6 +270,7 @@
   }
 
   .header {
+    min-height: 1024px;
     padding-inline: 20px;
   }
 
@@ -369,6 +371,11 @@
 }
 
 @media (width >=1024px) {
+  
+  .header {
+    min-height: 768px;
+  }
+
   .header__theme-menu {
     align-self: start;
     justify-self: center;
@@ -380,7 +387,6 @@
   }
 
   .header_text {
-    text-align: left;
     padding-right: 0px;
     max-width: 491px;
   }
