@@ -90,7 +90,7 @@
   flex-direction: column;
   align-content: flex-end;
   align-items: center;
-  gap: 9px;
+  gap: 10px;
 }
 
 .header__theme-menu-button {
@@ -138,7 +138,7 @@
   font-family: var(--font-family);
   line-height: 23.4px;
   color: var(--header-text-color);
-  margin-block-end: 10px;
+  margin-block-end: 15px;
 }
 
 .title-decor {
@@ -371,7 +371,7 @@
 }
 
 @media (width >=1024px) {
-  
+
   .header {
     min-height: 768px;
   }
