@@ -105,6 +105,10 @@
   border: none;
 }
 
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
 .header__theme-menu-button:focus-visible {
   border-block-end: solid 1px currentColor;
 }
@@ -219,6 +223,10 @@
 }
 
 .article_link:focus {
+  outline: none;
+}
+
+.article_link:focus-visible {
   outline: 1px solid var(--link-color-hover);
 }
 
