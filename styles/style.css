@@ -81,6 +81,7 @@
   align-self: center;
   justify-self: end;
   padding-inline-start: 1px;
+  padding-block-start: 13px;
 }
 
 .header__theme-menu-list {
@@ -136,6 +137,7 @@
   font-family: var(--font-family);
   line-height: 23.4px;
   color: var(--header-text-color);
+  padding-block-end: 5px;
 }
 
 .title-decor {
@@ -322,6 +324,10 @@
     gap: 80px;
   }
 
+  .gallery {
+    gap: 20px;
+  }
+
   .gallery_list {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -374,6 +380,7 @@
   }
 
   .header_text {
+    text-align: left;
     padding-right: 0px;
     max-width: 491px;
   }
